@@ -1,0 +1,217 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\RunAsChild_Implant.dll
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+             14C machine (x86)
+               4 number of sections
+        45A40FD3 time date stamp Tue Jan  9 23:57:39 2007
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+            210E characteristics
+                   Executable
+                   Line numbers stripped
+                   Symbols stripped
+                   32 bit word machine
+                   DLL
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            7.10 linker version
+            5000 size of code
+            2200 size of initialized data
+               0 size of uninitialized data
+            557B entry point (6800557B)
+            1000 base of code
+            6000 base of data
+        68000000 image base (68000000 to 68009FFF)
+            1000 section alignment
+             200 file alignment
+            4.00 operating system version
+            1.00 image version
+            4.00 subsystem version
+               0 Win32 version
+            A000 size of image
+             400 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+            7770 [      3B] RVA [size] of Export Directory
+            71F4 [      50] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            9000 [     48C] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            6000 [     110] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+    4FAE virtual size
+    1000 virtual address (68001000 to 68005FAD)
+    5000 size of raw data
+     400 file pointer to raw data (00000400 to 000053FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    17AB virtual size
+    6000 virtual address (68006000 to 680077AA)
+    1800 size of raw data
+    5400 file pointer to raw data (00005400 to 00006BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Section contains the following imports:
+
+    MSVCRT.dll
+              680060A0 Import Address Table
+              680072E4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  2E9 wcsncpy
+                  1C1 _stricmp
+                   9D _adjust_fdiv
+                  10F _initterm
+                  2C0 strncmp
+                  13C _local_unwind2
+                  2C5 strstr
+                  2E3 wcscpy
+                  2E6 wcslen
+                  2E7 wcsncat
+                  2BE strlen
+                  2C1 strncpy
+                  299 memset
+                  2B8 strcmp
+                  296 memcmp
+                  291 malloc
+                  297 memcpy
+                  25E free
+                   49 __CxxFrameHandler
+                  2BA strcpy
+                  2A7 realloc
+
+    KERNEL32.dll
+              68006000 Import Address Table
+              68007244 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  1DE GetVersion
+                   5A CreateMutexA
+                  387 WideCharToMultiByte
+                  26B MultiByteToWideChar
+                  30E SetFilePointer
+                  2A9 ReadFile
+                  15B GetFileSize
+                   4E CreateFileMappingA
+                  25E MapViewOfFile
+                  252 LocalFree
+                  24E LocalAlloc
+                  151 GetEnvironmentVariableW
+                   50 CreateFileW
+                  3B6 lstrcpyA
+                  373 VirtualAlloc
+                  2B6 ReleaseMutex
+                  376 VirtualFree
+                  279 OpenMutexW
+                  31B SetLastError
+                  383 WaitForSingleObject
+                  249 LoadLibraryExA
+                  1DF GetVersionExA
+                  229 IsBadReadPtr
+                  248 LoadLibraryA
+                   64 CreateRemoteThread
+                  177 GetModuleHandleA
+                   84 DisableThreadLibraryCalls
+                  27A OpenProcess
+                  24B LoadLibraryW
+                  377 VirtualFreeEx
+                   2E CloseHandle
+                  153 GetExitCodeThread
+                  384 WaitForSingleObjectEx
+                  39D WriteProcessMemory
+                  37A VirtualProtectEx
+                  169 GetLastError
+                  374 VirtualAllocEx
+                   EF FreeLibrary
+                  198 GetProcAddress
+
+    USER32.dll
+              680060F8 Import Address Table
+              6800733C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  2B3 UnregisterClassA
+                  26A SetPropA
+                   61 CreateWindowExW
+                   99 DestroyWindow
+                  2B4 UnregisterClassW
+
+SECTION HEADER #3
+   .data name
+     144 virtual size
+    8000 virtual address (68008000 to 68008143)
+     200 size of raw data
+    6C00 file pointer to raw data (00006C00 to 00006DFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+SECTION HEADER #4
+  .reloc name
+     630 virtual size
+    9000 virtual address (68009000 to 6800962F)
+     800 size of raw data
+    6E00 file pointer to raw data (00006E00 to 000075FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+        1000 .data
+        2000 .rdata
+        1000 .reloc
+        5000 .text

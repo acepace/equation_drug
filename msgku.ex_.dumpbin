@@ -1,0 +1,271 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\msgku.ex_
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               5 number of sections
+        4B7F23D7 time date stamp Sat Feb 20 01:50:47 2010
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             10F characteristics
+                   Relocations stripped
+                   Executable
+                   Line numbers stripped
+                   Symbols stripped
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            6.00 linker version
+            8000 size of code
+            D000 size of initialized data
+               0 size of uninitialized data
+            3A14 entry point (00403A14)
+            1000 base of code
+            9000 base of data
+          400000 image base (00400000 to 00415FFF)
+            1000 section alignment
+            1000 file alignment
+            4.00 operating system version
+            0.00 image version
+            4.00 subsystem version
+               0 Win32 version
+           16000 size of image
+            1000 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+            AAE0 [      64] RVA [size] of Import Directory
+            E000 [    7F54] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+               0 [       0] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            9000 [     194] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+    737A virtual size
+    1000 virtual address (00401000 to 00408379)
+    8000 size of raw data
+    1000 file pointer to raw data (00001000 to 00008FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    22DA virtual size
+    9000 virtual address (00409000 to 0040B2D9)
+    3000 size of raw data
+    9000 file pointer to raw data (00009000 to 0000BFFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Section contains the following imports:
+
+    KERNEL32.dll
+                409014 Import Address Table
+                40AB58 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  25B LockResource
+                  348 SizeofResource
+                  24D LoadResource
+                   DA FindResourceA
+                  198 GetProcAddress
+                  177 GetModuleHandleA
+                  176 GetModuleFileNameW
+                  17A GetModuleHandleW
+                   4F CreateFileMappingW
+                  169 GetLastError
+                  13A GetCurrentProcess
+                  249 LoadLibraryExA
+                  1DF GetVersionExA
+                  229 IsBadReadPtr
+                  24E LocalAlloc
+                  1BA GetSystemDirectoryW
+                  248 LoadLibraryA
+                  375 VirtualAlloc
+                  37A VirtualLock
+                  37F VirtualUnlock
+                  378 VirtualFree
+                  1DE GetVersion
+                  24B LoadLibraryW
+                  1E0 GetVersionExW
+                  26A MulDiv
+                   EF FreeLibrary
+                  27B OpenMutexW
+                   5B CreateMutexW
+                  1B9 GetSystemDirectoryA
+                   4E CreateFileMappingA
+                  25E MapViewOfFile
+                  365 UnmapViewOfFile
+                  139 GetCurrentDirectoryW
+                   4D CreateFileA
+                   83 DeviceIoControl
+                  151 GetEnvironmentVariableW
+                  1AF GetStartupInfoA
+                  31D SetLastError
+                  2B8 ReleaseMutex
+                   2E CloseHandle
+                  349 Sleep
+                  385 WaitForSingleObject
+                   5A CreateMutexA
+                  13E GetCurrentThreadId
+                  13B GetCurrentProcessId
+                  15B GetFileSize
+
+    USER32.dll
+                40917C Import Address Table
+                40ACC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  2D6 wsprintfW
+                   99 DestroyWindow
+                  2B3 UnregisterClassW
+                  269 SetPropA
+                   61 CreateWindowExW
+
+    MSVCRT.dll
+                4090D0 Import Address Table
+                40AC14 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   B7 _controlfp
+                   81 __set_app_type
+                   6F __p__fmode
+                  2BF strncat
+                  2C1 strncpy
+                  13C _local_unwind2
+                   6A __p__commode
+                   9D _adjust_fdiv
+                   83 __setusermatherr
+                  10F _initterm
+                  262 fseek
+                  25D fread
+                  1C1 _stricmp
+                  1AF _snwprintf
+                  2E9 wcsncpy
+                  2BA strcpy
+                  24C fclose
+                  203 _wfopen
+                  2E7 wcsncat
+                  2B8 strcmp
+                  2C0 strncmp
+                   58 __getmainargs
+                   8F _acmdln
+                  249 exit
+                   48 _XcptFilter
+                   D3 _exit
+                  2B2 sprintf
+                    F ??2@YAPAXI@Z
+                  2BE strlen
+                   10 ??3@YAXPAX@Z
+                  297 memcpy
+                  291 malloc
+                  25E free
+                  299 memset
+                  2D6 towupper
+                  2E3 wcscpy
+                  2DF wcscat
+                  2E6 wcslen
+                   49 __CxxFrameHandler
+                   F5 _get_osfhandle
+                  298 memmove
+                  240 calloc
+
+    ADVAPI32.dll
+                409000 Import Address Table
+                40AB44 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  1ED RegQueryValueExW
+                  1E2 RegOpenKeyExA
+                  1C9 RegCloseKey
+                  132 InitializeSecurityDescriptor
+
+SECTION HEADER #3
+   .data name
+     588 virtual size
+    C000 virtual address (0040C000 to 0040C587)
+    1000 size of raw data
+    C000 file pointer to raw data (0000C000 to 0000CFFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+SECTION HEADER #4
+ .sxdata name
+      30 virtual size
+    D000 virtual address (0040D000 to 0040D02F)
+    1000 size of raw data
+    D000 file pointer to raw data (0000D000 to 0000DFFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000240 flags
+         Initialized Data
+         Info
+         Read Write
+
+SECTION HEADER #5
+   .rsrc name
+    7F54 virtual size
+    E000 virtual address (0040E000 to 00415F53)
+    8000 size of raw data
+    E000 file pointer to raw data (0000E000 to 00015FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Summary
+
+        1000 .data
+        3000 .rdata
+        8000 .rsrc
+        1000 .sxdata
+        8000 .text

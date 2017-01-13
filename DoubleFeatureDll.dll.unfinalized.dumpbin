@@ -1,0 +1,396 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\DoubleFeatureDll.dll.unfinalized
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+             14C machine (x86)
+               4 number of sections
+        5228B56B time date stamp Thu Sep  5 19:46:35 2013
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+            2102 characteristics
+                   Executable
+                   32 bit word machine
+                   DLL
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+           10.00 linker version
+           55C00 size of code
+            F600 size of initialized data
+               0 size of uninitialized data
+            611A entry point (1000611A)
+            1000 base of code
+           57000 base of data
+        10000000 image base (10000000 to 10067FFF)
+            1000 section alignment
+             200 file alignment
+            5.00 operating system version
+            0.00 image version
+            5.00 subsystem version
+               0 Win32 version
+           68000 size of image
+             400 size of headers
+           64ACB checksum
+               3 subsystem (Windows CUI)
+             140 DLL characteristics
+                   Dynamic base
+                   NX compatible
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+           5C140 [      3E] RVA [size] of Export Directory
+           5AECC [      A0] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+           64000 [    2630] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+           57000 [     37C] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+   55B88 virtual size
+    1000 virtual address (10001000 to 10056B87)
+   55C00 size of raw data
+     400 file pointer to raw data (00000400 to 00055FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    517E virtual size
+   57000 virtual address (10057000 to 1005C17D)
+    5200 size of raw data
+   56000 file pointer to raw data (00056000 to 0005B1FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Section contains the following imports:
+
+    msvcrt.dll
+              1005723C Import Address Table
+              1005B1A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  51D strncat
+                  516 strcpy
+                  3EF _wcsicmp
+                  368 _strnicmp
+                  246 _lrotl
+                  247 _lrotr
+                  3FF _wcsrev
+                  35E _stricmp
+                  4E9 memcmp
+                  4E5 mbstowcs
+                  53B towlower
+                  3F9 _wcsnicmp
+                  552 wcscmp
+                  3EA _wcsdup
+                   11 ??1type_info@@UAE@XZ
+                  4C9 iswalpha
+                  524 strrchr
+                  480 atoi
+                  564 wcsstr
+                  559 wcsncat
+                  520 strncpy
+                  51C strlen
+                  55C wcsncpy
+                  54F wcscat
+                  38E _time64
+                   63 _CxxThrowException
+                  52B strtoul
+                  514 strcmp
+                  51F strncmp
+                  4B6 getenv
+                  539 tolower
+                  4BD isalnum
+                  55B wcsncmp
+                  4D2 iswspace
+                  4FF realloc
+                  2EB _onexit
+                   8D __dllonexit
+                  32F _snprintf
+                  242 _lock
+                  3A6 _unlock
+                  4D5 isxdigit
+                  485 calloc
+                   F5 _adjust_fdiv
+                  101 _amsg_exit
+                  1D5 _initterm
+                   6A _XcptFilter
+                  4C6 isspace
+                  4A6 free
+                  4DE malloc
+                  4EC memmove
+                  339 _snwprintf
+                  2FC _purecall
+                   12 ??2@YAPAXI@Z
+                  534 time
+                  50E srand
+                  4FD rand
+                   14 ??3@YAXPAX@Z
+                  528 strtok
+                  518 strcspn
+                  4EE memset
+                  50B sprintf
+                  560 wcsrchr
+                  53C towupper
+                  558 wcslen
+                  4EA memcpy
+                  52D swprintf
+                  513 strchr
+                  3C8 _vsnprintf
+                  551 wcschr
+                  156 _errno
+                  554 wcscpy
+                   71 __CxxFrameHandler
+
+    ntdll.dll
+              10057360 Import Address Table
+              1005B2CC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 NtQuerySystemInformation
+                    0 NtCreateEventPair
+                    4 NtWaitLowEventPair
+                    2 NtSetHighEventPair
+                    3 NtSetLowWaitHighEventPair
+                    5 RtlNtStatusToDosError
+
+    KERNEL32.dll
+              10057058 Import Address Table
+              1005AFC4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   14 CallNamedPipeA
+                  20C OpenEventA
+                   B1 FindNextFileW
+                   AA FindFirstFileW
+                   A3 FindClose
+                  10F GetCurrentThread
+                   70 DuplicateHandle
+                  2D6 TlsGetValue
+                  2D7 TlsSetValue
+                  232 QueueUserAPC
+                  2D4 TlsAlloc
+                  1CC InterlockedDecrement
+                  2D5 TlsFree
+                   93 ExpandEnvironmentStringsA
+                  214 OpenMutexW
+                   C6 FreeEnvironmentStringsW
+                  133 GetLocalTime
+                   67 DeviceIoControl
+                  241 ReadFile
+                  206 MultiByteToWideChar
+                  1B8 HeapAlloc
+                  1BE HeapFree
+                  159 GetProcessHeap
+                  2F8 VirtualProtect
+                  2F2 VirtualAlloc
+                  157 GetProcAddress
+                  128 GetFileInformationByHandle
+                  176 GetSystemInfo
+                  2FA VirtualQuery
+                  192 GetVersion
+                  1ED LocalFree
+                   DF GetCommandLineW
+                   1E CloseHandle
+                  301 WaitForSingleObject
+                   51 CreateThread
+                  258 ResumeThread
+                  294 SetEvent
+                  2B4 SetThreadContext
+                  184 GetThreadContext
+                  131 GetLastError
+                  2C9 SuspendThread
+                   35 CreateEventW
+                  2D0 TerminateThread
+                  20D OpenEventW
+                  1C9 InitializeCriticalSection
+                  2C7 Sleep
+                  1CB InterlockedCompareExchange
+                  2A0 SetLastError
+                  1E2 LeaveCriticalSection
+                   73 EnterCriticalSection
+                  13E GetModuleHandleA
+                  1D4 IsBadReadPtr
+                  1E3 LoadLibraryA
+                  123 GetExitCodeThread
+                  110 GetCurrentThreadId
+                  1CD InterlockedExchange
+                  10D GetCurrentProcess
+                  1E9 LocalAlloc
+                   34 CreateEventA
+                  10E GetCurrentProcessId
+                  2C5 SignalObjectAndWait
+                  256 ResetEvent
+                  21C OutputDebugStringA
+                  25B RtlUnwind
+                  2CF TerminateProcess
+                  2DF UnhandledExceptionFilter
+                  2BC SetUnhandledExceptionFilter
+                  22F QueryPerformanceCounter
+                  18A GetTickCount
+                  17A GetSystemTimeAsFileTime
+                  2F5 VirtualFree
+                   91 ExitThread
+                  2FF WaitForMultipleObjects
+                  24D ReleaseMutex
+                   43 CreateMutexA
+                  1CF InterlockedIncrement
+                  120 GetEnvironmentVariableA
+                   44 CreateMutexW
+                  302 WaitForSingleObjectEx
+                  244 ReadProcessMemory
+                  1BA HeapCreate
+                  1C2 HeapSize
+                  194 GetVersionExW
+                  13F GetModuleHandleW
+                  17C GetSystemWindowsDirectoryW
+                   B6 FindResourceA
+                  1E8 LoadResource
+                  2C6 SizeofResource
+                  1F6 LockResource
+                  201 MoveFileExW
+                  178 GetSystemTime
+                  292 SetEnvironmentVariableW
+                   5E DeleteCriticalSection
+                  1D6 IsBadStringPtrW
+                  305 WideCharToMultiByte
+                  1AD GlobalMemoryStatusEx
+                  198 GetVolumeNameForVolumeMountPointW
+                  175 GetSystemDirectoryW
+                  137 GetLogicalDriveStringsW
+                  183 GetTempPathW
+                  181 GetTempFileNameW
+                  22D QueryDosDeviceW
+                   C7 FreeLibrary
+                  193 GetVersionExA
+                   94 ExpandEnvironmentStringsW
+                   4F CreateSemaphoreW
+                  13D GetModuleFileNameW
+                  24E ReleaseSemaphore
+                  19C GetWindowsDirectoryW
+
+    USER32.dll
+              10057218 Import Address Table
+              1005B184 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  290 UnregisterClassA
+                   90 DestroyWindow
+                  2B4 wsprintfW
+                  1F8 RegisterClassExW
+                   87 DefWindowProcW
+                   5B CreateWindowExW
+                  149 GetSystemMetrics
+                   C5 EnumDisplayDevicesW
+
+    GDI32.dll
+              10057030 Import Address Table
+              1005AF9C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   25 CreateBitmap
+                   44 CreatePatternBrush
+                   2B CreateCompatibleDC
+                  1CF SelectPalette
+                  1CE SelectObject
+                   31 CreateDIBitmap
+                   43 CreatePalette
+                   54 DeleteObject
+                   2D CreateDCW
+
+    ADVAPI32.dll
+              10057000 Import Address Table
+              1005AF6C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  1DC SetSecurityDescriptorDacl
+                   C2 GetExplicitEntriesFromAclW
+                   D1 GetNamedSecurityInfoW
+                   63 CryptDecrypt
+                   7A CryptReleaseContext
+                   60 CryptAcquireContextW
+                   79 CryptImportKey
+                  18B RegCloseKey
+                  1A5 RegOpenKeyExW
+                  1AF RegQueryValueExW
+                  104 InitializeSecurityDescriptor
+
+    SHELL32.dll
+              10057210 Import Address Table
+              1005B17C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 CommandLineToArgvW
+
+SECTION HEADER #3
+   .data name
+    65E0 virtual size
+   5D000 virtual address (1005D000 to 100635DF)
+    2200 size of raw data
+   5B200 file pointer to raw data (0005B200 to 0005D3FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+SECTION HEADER #4
+  .reloc name
+    3DF8 virtual size
+   64000 virtual address (10064000 to 10067DF7)
+    3E00 size of raw data
+   5D400 file pointer to raw data (0005D400 to 000611FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+        7000 .data
+        6000 .rdata
+        4000 .reloc
+       56000 .text

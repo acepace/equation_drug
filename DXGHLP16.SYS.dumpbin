@@ -1,0 +1,283 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\DXGHLP16.SYS
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               5 number of sections
+        3B7D83F4 time date stamp Fri Aug 17 23:52:04 2001
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             30E characteristics
+                   Executable
+                   Line numbers stripped
+                   Symbols stripped
+                   32 bit word machine
+                   Debug information stripped
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            6.00 linker version
+            AE60 size of code
+            2E60 size of initialized data
+               0 size of uninitialized data
+            46E6 entry point (000146E6)
+             2A0 base of code
+            A620 base of data
+           10000 image base (00010000 to 0001DF5F)
+              20 section alignment
+              20 file alignment
+            4.00 operating system version
+            4.00 image version
+            4.00 subsystem version
+               0 Win32 version
+            DF60 size of image
+             2A0 size of headers
+           14D38 checksum
+               1 subsystem (Native)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+            C3E0 [      50] RVA [size] of Import Directory
+            CEC0 [     418] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            D2E0 [     910] RVA [size] of Base Relocation Directory
+             460 [      1C] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+             2A0 [     1B4] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+    A362 virtual size
+     2A0 virtual address (000102A0 to 0001A601)
+    A380 size of raw data
+     2A0 file pointer to raw data (000002A0 to 0000A61F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+68000020 flags
+         Code
+         Not Paged
+         Execute Read
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    3B7D83F4 misc         110 00000000     DF60    Image Name: SYS\DXGHLP16.dbg
+
+SECTION HEADER #2
+   .data name
+    1DBC virtual size
+    A620 virtual address (0001A620 to 0001C3DB)
+    1DC0 size of raw data
+    A620 file pointer to raw data (0000A620 to 0000C3DF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C8000040 flags
+         Initialized Data
+         Not Paged
+         Read Write
+
+SECTION HEADER #3
+    INIT name
+     AE0 virtual size
+    C3E0 virtual address (0001C3E0 to 0001CEBF)
+     AE0 size of raw data
+    C3E0 file pointer to raw data (0000C3E0 to 0000CEBF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+E2000020 flags
+         Code
+         Discardable
+         Execute Read Write
+
+  Section contains the following imports:
+
+    ntoskrnl.exe
+                 102FC Import Address Table
+                 1C48C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   75 ExfInterlockedInsertTailList
+                   74 ExfInterlockedInsertHeadList
+                   78 ExfInterlockedRemoveHeadList
+                  257 PsGetVersion
+                  38C ZwQueryValueKey
+                  379 ZwOpenKey
+                  1B8 KeWaitForSingleObject
+                   D7 InterlockedExchange
+                   D5 InterlockedCompareExchange
+                   62 ExQueueWorkItem
+                  108 IoFreeMdl
+                   E8 IoBuildPartialMdl
+                  1D3 MmBuildMdlForNonPagedPool
+                   E1 IoAllocateMdl
+                  251 PsCreateSystemThread
+                  1B6 KeWaitForMultipleObjects
+                  267 PsTerminateSystemThread
+                  27A RtlAppendUnicodeStringToString
+                  292 RtlCopyUnicodeString
+                  3CE memmove
+                  361 ZwCreateKey
+                  365 ZwDeleteKey
+                  36B ZwEnumerateKey
+                  386 ZwQueryKey
+                  39B ZwSetValueKey
+                  318 RtlUnwind
+                  24F MmMapLockedPagesSpecifyCache
+                   D6 InterlockedDecrement
+                   D9 InterlockedIncrement
+                  3DF swprintf
+                  23F ObReferenceObjectByHandle
+                  244 ObfDereferenceObject
+                   FC IoDeleteSymbolicLink
+                  145 IofCompleteRequest
+                   F3 IoCreateDevice
+                   FB IoDeleteDevice
+                  35B ZwClose
+                   33 ExAllocatePool
+                  3EA wcslen
+                  277 RtlAnsiStringToUnicodeString
+                  289 RtlCompareUnicodeString
+                  2C3 RtlFreeUnicodeString
+                  2CD RtlInitAnsiString
+                  30F RtlUnicodeStringToAnsiString
+                  2C0 RtlFreeAnsiString
+                  3DB strncpy
+                  176 KeInitializeSpinLock
+                  2A1 RtlDeleteRegistryValue
+                  3B6 _strnicmp
+                  38B ZwQuerySystemInformation
+                  207 NtBuildNumber
+                  259 PsInitialSystemProcess
+                  384 ZwQueryInformationProcess
+                  37A ZwOpenProcess
+                  25B PsLookupProcessByProcessId
+                  3D5 strchr
+                  3DC strrchr
+                  1DF MmIsAddressValid
+                  159 KeDetachProcess
+                  36F ZwFreeVirtualMemory
+                  359 ZwAllocateVirtualMemory
+                  14F KeAttachProcess
+                  157 KeDelayExecutionThread
+                  17D KeInsertQueueApc
+                  16D KeInitializeApc
+                  360 ZwCreateFile
+                  3B3 _snwprintf
+                  370 ZwFsControlFile
+                  383 ZwQueryInformationFile
+                  3A2 ZwWriteFile
+                  28E RtlConvertUlongToLargeInteger
+                  1B2 KeTickCount
+                  38D ZwQueryVolumeInformationFile
+                  2FB RtlRandom
+                  395 ZwSetInformationFile
+                  193 KeReleaseSemaphore
+                  1F6 MmUnlockPages
+                  1F8 MmUnmapLockedPages
+                  170 KeInitializeEvent
+                  175 KeInitializeSemaphore
+                  1ED MmProbeAndLockPages
+                  186 KeQuerySystemTime
+                   36 ExAllocatePoolWithTag
+                  2D0 RtlInitUnicodeString
+                   42 ExFreePool
+
+    HAL.dll
+                 102A0 Import Address Table
+                 1C430 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   46 KeQueryPerformanceCounter
+                    0 ExAcquireFastMutex
+                    1 ExReleaseFastMutex
+                   4F KfAcquireSpinLock
+                   52 KfReleaseSpinLock
+
+    NDIS.SYS
+                 102B8 Import Address Table
+                 1C448 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   75 NdisFreePacket
+                   27 NdisAllocateBufferPool
+                   2C NdisAllocatePacketPool
+                   72 NdisFreeBufferPool
+                   3F NdisCloseAdapter
+                   2B NdisAllocatePacket
+                   EF NdisOpenAdapter
+                  124 NdisWaitEvent
+                   69 NdisDeregisterProtocol
+                   9B NdisInitializeEvent
+                  111 NdisResetEvent
+                  116 NdisSetEvent
+                  109 NdisRegisterProtocol
+                   26 NdisAllocateBuffer
+                  11F NdisUnchainBufferAtFront
+                   76 NdisFreePacketPool
+
+SECTION HEADER #4
+   .rsrc name
+     418 virtual size
+    CEC0 virtual address (0001CEC0 to 0001D2D7)
+     420 size of raw data
+    CEC0 file pointer to raw data (0000CEC0 to 0000D2DF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+SECTION HEADER #5
+  .reloc name
+     C72 virtual size
+    D2E0 virtual address (0001D2E0 to 0001DF51)
+     C80 size of raw data
+    D2E0 file pointer to raw data (0000D2E0 to 0000DF5F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+        1DC0 .data
+         C80 .reloc
+         420 .rsrc
+        A380 .text
+         AE0 INIT

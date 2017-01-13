@@ -1,0 +1,261 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\tdi6.sys
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        3F403792 time date stamp Mon Aug 18 05:18:58 2003
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             102 characteristics
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            8.00 linker version
+            5E00 size of code
+            2000 size of initialized data
+               0 size of uninitialized data
+             490 entry point (00010490)
+             480 base of code
+            5B00 base of data
+           10000 image base (00010000 to 0001827F)
+              80 section alignment
+              80 file alignment
+            6.00 operating system version
+            6.00 image version
+            5.00 subsystem version
+               0 Win32 version
+            8280 size of image
+             480 size of headers
+           1455B checksum
+               1 subsystem (Native)
+               0 DLL characteristics
+           40000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+            7000 [      50] RVA [size] of Import Directory
+            7780 [     3B0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            7B80 [     53C] RVA [size] of Base Relocation Directory
+            5C30 [      1C] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+            6998 [      40] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            5B00 [     128] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+    5614 virtual size
+     480 virtual address (00010480 to 00015A93)
+    5680 size of raw data
+     480 file pointer to raw data (00000480 to 00005AFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+68000020 flags
+         Code
+         Not Paged
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    10B4 virtual size
+    5B00 virtual address (00015B00 to 00016BB3)
+    1100 size of raw data
+    5B00 file pointer to raw data (00005B00 to 00006BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+48000040 flags
+         Initialized Data
+         Not Paged
+         Read Only
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    3F403792 cv            21 000069E0     69E0    Format: RSDS, {FEC3B55C-7F96-49FE-8BDF-FD9339AA0A38}, 1, 
+
+SECTION HEADER #3
+   .data name
+     38C virtual size
+    6C00 virtual address (00016C00 to 00016F8B)
+     400 size of raw data
+    6C00 file pointer to raw data (00006C00 to 00006FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C8000040 flags
+         Initialized Data
+         Not Paged
+         Read Write
+
+SECTION HEADER #4
+    INIT name
+     73E virtual size
+    7000 virtual address (00017000 to 0001773D)
+     780 size of raw data
+    7000 file pointer to raw data (00007000 to 0000777F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+E2000020 flags
+         Code
+         Discardable
+         Execute Read Write
+
+  Section contains the following imports:
+
+    ntoskrnl.exe
+                 15B54 Import Address Table
+                 170A4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  440 ZwOpenKey
+                  459 ZwQueryValueKey
+                  1C7 KeInitializeMutex
+                   3A ExAllocatePoolWithTag
+                  475 ZwWriteFile
+                  44F ZwQueryInformationFile
+                  424 ZwCreateFile
+                  214 KeWaitForSingleObject
+                  1E9 KeReleaseMutex
+                  31B RtlCopyUnicodeString
+                  368 RtlInitUnicodeString
+                  41F ZwClose
+                  4A4 memset
+                  4A2 memcpy
+                   48 ExFreePoolWithTag
+                  1AB KeDelayExecutionThread
+                  2BD ObfDereferenceObject
+                  212 KeWaitForMultipleObjects
+                  2EE PsTerminateSystemThread
+                  2B8 ObReferenceObjectByHandle
+                  2D4 PsCreateSystemThread
+                  133 IoFreeMdl
+                  251 MmMapLockedPagesSpecifyCache
+                   81 ExfInterlockedRemoveHeadList
+                  4B4 swprintf
+                   7E ExfInterlockedInsertTailList
+                   7D ExfInterlockedInsertHeadList
+                  134 IoFreeWorkItem
+                  15D IoQueueWorkItem
+                  105 IoAllocateWorkItem
+                  478 _alldiv
+                  479 _allmul
+                  47A _allrem
+                  127 IoDeleteSymbolicLink
+                  125 IoDeleteDevice
+                  121 IoCreateSymbolicLink
+                  1DD KeQuerySystemTime
+                  11B IoCreateDevice
+                  10C IoBuildPartialMdl
+                  236 MmBuildMdlForNonPagedPool
+                  104 IoAllocateMdl
+                  485 _local_unwind2
+                  197 IofCompleteRequest
+                  301 RtlAppendUnicodeStringToString
+                  311 RtlCompareUnicodeString
+                  425 ZwCreateKey
+                  42A ZwDeleteKey
+                  430 ZwEnumerateKey
+                  453 ZwQueryKey
+                  46D ZwSetValueKey
+                  4A3 memmove
+                  481 _except_handler3
+
+    HAL.dll
+                 15B00 Import Address Table
+                 17050 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   46 KeQueryPerformanceCounter
+                   4F KfAcquireSpinLock
+                   52 KfReleaseSpinLock
+
+    NDIS.SYS
+                 15B10 Import Address Table
+                 17060 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   3F NdisCloseAdapter
+                   F1 NdisOpenAdapter
+                   27 NdisAllocateBufferPool
+                   2C NdisAllocatePacketPool
+                  111 NdisRequest
+                   76 NdisFreePacketPool
+                  10B NdisRegisterProtocol
+                  121 NdisUnchainBufferAtFront
+                   75 NdisFreePacket
+                  118 NdisSetEvent
+                   9D NdisInitializeEvent
+                   2B NdisAllocatePacket
+                  113 NdisResetEvent
+                   69 NdisDeregisterProtocol
+                   72 NdisFreeBufferPool
+                  126 NdisWaitEvent
+
+SECTION HEADER #5
+   .rsrc name
+     3B0 virtual size
+    7780 virtual address (00017780 to 00017B2F)
+     400 size of raw data
+    7780 file pointer to raw data (00007780 to 00007B7F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+SECTION HEADER #6
+  .reloc name
+     6A8 virtual size
+    7B80 virtual address (00017B80 to 00018227)
+     700 size of raw data
+    7B80 file pointer to raw data (00007B80 to 0000827F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+         400 .data
+        1100 .rdata
+         700 .reloc
+         400 .rsrc
+        5680 .text
+         780 INIT

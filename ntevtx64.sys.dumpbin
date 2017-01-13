@@ -1,0 +1,331 @@
+
+Dump of file D:\4150\equationGroupWindows\equation_drug\ntevtx64.sys
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               8 number of sections
+        4F560AB3 time date stamp Tue Mar  6 15:01:39 2012
+               0 file pointer to symbol table
+               0 number of symbols
+              F0 size of optional header
+              22 characteristics
+                   Executable
+                   Application can handle large (>2GB) addresses
+
+OPTIONAL HEADER VALUES
+             20B magic # (PE32+)
+           10.00 linker version
+           34800 size of code
+            9000 size of initialized data
+               0 size of uninitialized data
+            A528 entry point (000000000000A528)
+            1000 base of code
+               0 image base (0000000000000000 to 0000000000040FFF)
+            1000 section alignment
+             200 file alignment
+            5.02 operating system version
+            0.00 image version
+            5.02 subsystem version
+               0 Win32 version
+           41000 size of image
+             400 size of headers
+           47CF9 checksum
+               3 subsystem (Windows CUI)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+           3E000 [      45] RVA [size] of Export Directory
+           3F000 [      28] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+           3A000 [    1A10] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+           40000 [      7C] RVA [size] of Base Relocation Directory
+           33400 [      1C] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+           33000 [     3F8] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+   31CA2 virtual size
+    1000 virtual address (0000000000001000 to 0000000000032CA1)
+   31E00 size of raw data
+     400 file pointer to raw data (00000400 to 000321FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+68000020 flags
+         Code
+         Not Paged
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+    1EE4 virtual size
+   33000 virtual address (0000000000033000 to 0000000000034EE3)
+    2000 size of raw data
+   32200 file pointer to raw data (00032200 to 000341FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+48000040 flags
+         Initialized Data
+         Not Paged
+         Read Only
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    4F560AB3 cv            25 000339D8    32BD8    Format: RSDS, {0009A5F8-D62C-4CF8-A021-42E0B32D624A}, 1, c:\ntevt.pdb
+
+SECTION HEADER #3
+   .data name
+    4CE0 virtual size
+   35000 virtual address (0000000000035000 to 0000000000039CDF)
+    3400 size of raw data
+   34200 file pointer to raw data (00034200 to 000375FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C8000040 flags
+         Initialized Data
+         Not Paged
+         Read Write
+
+SECTION HEADER #4
+  .pdata name
+    1A10 virtual size
+   3A000 virtual address (000000000003A000 to 000000000003BA0F)
+    1C00 size of raw data
+   37600 file pointer to raw data (00037600 to 000391FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+48000040 flags
+         Initialized Data
+         Not Paged
+         Read Only
+
+SECTION HEADER #5
+    PAGE name
+    1933 virtual size
+   3C000 virtual address (000000000003C000 to 000000000003D932)
+    1A00 size of raw data
+   39200 file pointer to raw data (00039200 to 0003ABFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+SECTION HEADER #6
+  .edata name
+      45 virtual size
+   3E000 virtual address (000000000003E000 to 000000000003E044)
+     200 size of raw data
+   3AC00 file pointer to raw data (0003AC00 to 0003ADFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+SECTION HEADER #7
+    INIT name
+     F82 virtual size
+   3F000 virtual address (000000000003F000 to 000000000003FF81)
+    1000 size of raw data
+   3AE00 file pointer to raw data (0003AE00 to 0003BDFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+E2000020 flags
+         Code
+         Discardable
+         Execute Read Write
+
+  Section contains the following imports:
+
+    ntoskrnl.exe
+                 33000 Import Address Table
+                 3F028 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          D9 ExpInterlockedPushEntrySList
+                          A1 ExQueryDepthSList
+                          6D ExAllocatePoolWithTag
+                          85 ExFreePoolWithTag
+                         2F7 KeReleaseSpinLock
+                         295 KeAcquireSpinLockRaiseToDpc
+                         5B7 RtlUnicodeStringToAnsiString
+                         368 MmIsAddressValid
+                         52E RtlInitUnicodeString
+                         4C5 RtlCompareMemory
+                         73A sprintf
+                         293 KeAcquireSpinLockAtDpcLevel
+                         2F9 KeReleaseSpinLockFromDpcLevel
+                         1F6 IoGetDriverObjectExtension
+                         41B ObfDereferenceObject
+                         1F0 IoGetDeviceObjectPointer
+                         671 ZwClose
+                         68F ZwEnumerateKey
+                         6AA ZwOpenKey
+                          D8 ExpInterlockedPopEntrySList
+                         375 MmMapLockedPagesSpecifyCache
+                         30D KeSetEvent
+                         1E2 IoFreeMdl
+                         392 MmUnlockPages
+                         22D IoReleaseCancelSpinLock
+                         709 __C_specific_handler
+                         381 MmProbeAndLockPages
+                         196 IoAllocateMdl
+                         352 MmBuildMdlForNonPagedPool
+                         44B PsGetCurrentProcessId
+                         20B IoIs32bitProcess
+                         411 ObReferenceObjectByHandle
+                         225 IoRegisterBootDriverReinitialization
+                         4C8 RtlCompareUnicodeString
+                         716 _strnicmp
+                         6D6 ZwQuerySystemInformation
+                         476 PsGetVersion
+                          72 ExDeleteNPagedLookasideList
+                          74 ExDeleteResourceLite
+                         2D1 KeLeaveCriticalRegion
+                          B4 ExReleaseResourceLite
+                          5C ExAcquireResourceExclusiveLite
+                         2A8 KeEnterCriticalRegion
+                         2A2 KeDelayExecutionThread
+                         6D7 ZwQueryValueKey
+                         742 strncmp
+                         704 ZwUnmapViewOfSection
+                         6A1 ZwMapViewOfSection
+                         67F ZwCreateSection
+                         679 ZwCreateFile
+                          90 ExInitializeResourceLite
+                          8D ExInitializeNPagedLookasideList
+                         50F RtlFreeUnicodeString
+                         4B1 RtlAnsiStringToUnicodeString
+                         52A RtlInitAnsiString
+                         32C KeWaitForSingleObject
+                         2F4 KeReleaseMutex
+                         6FC ZwSetValueKey
+                         4E9 RtlDeleteRegistryValue
+                         1CD IoDeleteDevice
+                         1CF IoDeleteSymbolicLink
+                         27F IofCompleteRequest
+                         32A KeWaitForMultipleObjects
+                         4A4 PsTerminateSystemThread
+                         4A5 PsThreadType
+                         443 PsCreateSystemThread
+                         1C2 IoCreateSymbolicLink
+                         2A1 KeClearEvent
+                         2BA KeInitializeEvent
+                         4D5 RtlCopyUnicodeString
+                         2BE KeInitializeMutex
+                         5B9 RtlUnicodeStringToInteger
+                         750 wcschr
+                         583 RtlQueryRegistryValues
+                         6DA ZwReadFile
+                         364 MmGetSystemRoutineAddress
+                         1B8 IoCreateDevice
+                         40E ObOpenObjectByPointer
+                         6F8 ZwSetSecurityObject
+                         1D3 IoDeviceObjectType
+                         713 _snwprintf
+                         55C RtlLengthSecurityDescriptor
+                         5E9 SeCaptureSecurityDescriptor
+                         4DA RtlCreateSecurityDescriptor
+                         598 RtlSetDaclSecurityDescriptor
+                         4A8 RtlAbsoluteToSelfRelativeSD
+                         211 IoIsWdmVersionAvailable
+                         5F8 SeExports
+                         722 _wcsnicmp
+                         55D RtlLengthSid
+                         4A9 RtlAddAccessAllowedAce
+                         520 RtlGetSaclSecurityDescriptor
+                         515 RtlGetDaclSecurityDescriptor
+                         51A RtlGetGroupSecurityDescriptor
+                         51E RtlGetOwnerSecurityDescriptor
+                         67C ZwCreateKey
+                         213 KeBugCheckEx
+                         346 ObOpenObjectByName
+                         345 ObMakeTemporaryObject
+                         33C ObCreateObject
+                         343 ObInsertObject
+                         167 IoDriverObjectType
+                         353 ObfReferenceObject
+                          43 ExAllocatePool
+                         24A KeQueryActiveProcessors
+                         744 strrchr
+                         50B RtlFreeAnsiString
+                         367 MmHighestUserAddress
+                         743 strncpy
+                         2C9 KeInsertQueueDpc
+                         316 KeSetTargetProcessorDpc
+                         2B9 KeInitializeDpc
+                         529 RtlImageNtHeader
+                         528 RtlImageDirectoryEntryToData
+                         561 RtlLookupElementGenericTable
+                         531 RtlInitializeGenericTable
+                         4E4 RtlDeleteElementGenericTable
+                         536 RtlInsertElementGenericTable
+                         747 swprintf
+                         4F3 RtlEnumerateGenericTableWithoutSplaying
+                         73D strchr
+                         52D RtlInitString
+                          9B ExInterlockedRemoveHeadList
+                          98 ExInterlockedInsertTailList
+                          97 ExInterlockedInsertHeadList
+                          7E ExEventObjectType
+
+SECTION HEADER #8
+  .reloc name
+     24C virtual size
+   40000 virtual address (0000000000040000 to 000000000004024B)
+     400 size of raw data
+   3BE00 file pointer to raw data (0003BE00 to 0003C1FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+        5000 .data
+        1000 .edata
+        2000 .pdata
+        2000 .rdata
+        1000 .reloc
+       32000 .text
+        1000 INIT
+        2000 PAGE
